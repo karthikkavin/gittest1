@@ -1,3 +1,5 @@
+This is a change
+
 SELECT t1.* FROM
     (SELECT qalsp.QAInspectionLogSpoolId, '' AS QAInspectionLogWeldId, '' AS WeldDataId, sp.SpoolID, sp.SpoolNo, sp.SpoolRevNo,  '' AS WeldLabel, mimt.MaterialName AS Material, '' AS Size, '' AS WeldDescription,
     sp.RTCompletePercentage, sp.MTCompletePercentage, sp.PTCompletePercentage, sp.PMICompletePercentage, sp.HardnessCompletePercentage, qalsp.Status AS Status, '' AS FitterID ,'' AS WelderID ,'' AS WPS, NULL AS IsQAInspectionWeld, '' AS IsInfo, NULL AS ThirdPartyStatus, sp.PipeCode, qalsp.LogType
